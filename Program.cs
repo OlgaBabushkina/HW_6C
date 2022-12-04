@@ -15,7 +15,7 @@ for (int i = 0; i < userInput.Length; i++)
 {
     if (userInput[i] != ',')
     {
-        array[j] = array[j] + userInput[i];
+        array[j] += userInput[i];
     }
     else j++;
 }
